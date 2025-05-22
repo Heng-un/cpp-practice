@@ -8,3 +8,5 @@ a very simple game made with the if loop ^^
 simple game again  
 
 04_2025.05.21 Practice After The Cherno C++ Series - Lessons 16_pointer
+
+05_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class
