@@ -6,7 +6,7 @@ I’m improving little by little 😊
 
 ---
 
-##  Practice List
+## 📂 Practice List
 
 ### 01-2025.05.08 – Lessons 09 & 10: *Functions & Header Files*  [View Folder](./01-2025.05.08)
 Practiced how to use functions and organize code using header files.
