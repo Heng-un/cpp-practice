@@ -29,7 +29,7 @@ Also learned how to delete dangling pointers properly.
 
 ---
 
-[Go to Practice Folder 05](./05_2025.05.21)### 05_2025.05.21 – Lessons 17 & 18: *References & Classes*
+[Go to Practice Folder 05](./05-2025.05.21)### 05_2025.05.21 – Lessons 17 & 18: *References & Classes*
 Used `class` and `reference` to create a simple system.  
 Also used `if` statements and loops from earlier lessons.
 
