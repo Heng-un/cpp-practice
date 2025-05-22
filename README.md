@@ -29,13 +29,14 @@ Also learned how to delete dangling pointers properly.
 
 ---
 
-[Go to](./05-2025.05.21)### 05_2025.05.21 – Lessons 17 & 18: *References & Classes*
+[Go to](./05-2025.05.22)
+### 05_2025.05.22 – Lessons 17 & 18: *References & Classes*
 Used `class` and `reference` to create a simple system.  
 Also used `if` statements and loops from earlier lessons.
 
 ---
 
-### 06_2025.05.21 – Lessons 17 & 18 (Improved)
+### 06_2025.05.22 – Lessons 17 & 18 (Improved)
 Refactored the code from folder `05_2025.05.21`.  
 Put the class in a header file, defined the functions in a `.cpp` file, and used `main.cpp` to run the program.  
 This was my first time using `ClassName::Function()` to define class methods outside the class.
