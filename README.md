@@ -14,7 +14,7 @@ Practice using pointers and double pointers.I also learned how to delete danglin
 05_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class  
 I used class and reference to make a simple system, and I also used if and loops from before
 
-06_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class
+06_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class  
 I improved the code from folder 05_2025.05.21.  
 I put the class in a header file, defined the functions in a .cpp file, and used main.cpp to run the program.
 This is my first time using ClassName::Function() to define functions outside the class.
