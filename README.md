@@ -1,29 +1,46 @@
-# cpp-practice  
-01_2025.05.08 Practice After The Cherno C++ Series - Lessons 09 & 10_funcions & header files  
-I practiced how to use functions and how to separate code using header files
+# 📘 C++ Practice – Following The Cherno Series
 
-  
-02_2025.05.10 Practice After The Cherno C++ Series - Lessons 12_if  
-a very simple game made with the if loop ^^  
+I'm learning C++ by following *The Cherno’s C++ YouTube Series*.  
+This repository contains my practice programs for each lesson.  
+I’m improving little by little 😊
 
-  
-03_2025.05.18 Practice After The Cherno C++ Series - Lessons 14_for while   
-simple game again  
+---
 
-  
-04_2025.05.21 Practice After The Cherno C++ Series - Lessons 16_pointer  
-Practice using pointers and double pointers.I also learned how to delete dangling pointers
+##  Practice List
 
-  
-05_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class  
-I used class and reference to make a simple system, and I also used if and loops from before
+### `01_2025.05.08` – Lessons 09 & 10: *Functions & Header Files*
+Practiced how to use functions and organize code using header files.
 
-  
-06_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class  
-I improved the code from folder 05_2025.05.21.  
-I put the class in a header file, defined the functions in a .cpp file, and used main.cpp to run the program.
-This is my first time using ClassName::Function() to define functions outside the class.
+---
 
+### `02_2025.05.10` – Lesson 12: *If Statements*
+Made a very simple game using `if` statements.
 
-Thanks for reading!
-I’m learning step by step 😊
+---
+
+### `03_2025.05.18` – Lesson 14: *For & While Loops*
+Another simple game using loops.
+
+---
+
+### `04_2025.05.21` – Lesson 16: *Pointers*
+Practiced using pointers and double pointers.  
+Also learned how to delete dangling pointers properly.
+
+---
+
+### `05_2025.05.21` – Lessons 17 & 18: *References & Classes*
+Used `class` and `reference` to create a simple system.  
+Also used `if` statements and loops from earlier lessons.
+
+---
+
+### `06_2025.05.21` – Lessons 17 & 18 (Improved)
+Refactored the code from folder `05_2025.05.21`.  
+Put the class in a header file, defined the functions in a `.cpp` file, and used `main.cpp` to run the program.  
+This was my first time using `ClassName::Function()` to define class methods outside the class.
+
+---
+
+Thanks for reading! 🙌
+
