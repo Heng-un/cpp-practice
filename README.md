@@ -9,4 +9,8 @@ simple game again
 
 04_2025.05.21 Practice After The Cherno C++ Series - Lessons 16_pointer
 
-05_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class
+05_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class  
+利用新学的class和之前的if，loop制作的练习
+
+06_2025.05.21 Practice After The Cherno C++ Series - Lessons 17 & 18_reference & class
+将05的练习分为了头文件，定义文件和Main文件，尝试了类外定义。
