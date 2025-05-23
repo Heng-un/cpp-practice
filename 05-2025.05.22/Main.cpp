@@ -1,26 +1,38 @@
 #include <iostream>
 #define LOG(x) std::cout << x << std::endl;  
 
-int main()
+class Player 
 {
+public:
+	int x=0, y=0;
 	int level = 1;
+	int skillpoints = 0;
 
-	int*   skillPoints = new int[1];
-	int** ptr2 = &skillPoints;
-	memset(skillPoints, 0, sizeof(int) * 1);
-
-	for (level = 1; level <= 6; level++)
-	{	
-		if (level >= 2)
-		{
-			(**ptr2) += 3;
-			LOG("レベルアップ！現在のレベル:" << level << "、スキルポイント : " << **ptr2);
-		}
+	void Move(int xa, int ya)
+	{
+		x += xa;
+		y += ya;
 	}
 
-	delete[] skillPoints;
-	skillPoints = nullptr;
-	ptr2 =        nullptr;
+	void LevelUp()
+	{
+		level++;
+			if (level >= 2)
+			{
+				skillpoints += 3;
+			}
+	}
+};
+
+int main()
+{
+	Player hero;
+	while (hero.level <= 5)
+	{
+		hero.LevelUp();
+		LOG("レベルアップ！現在のレベル:"<<hero.level << "、スキルポイント : " << hero.skillpoints);
+	}
+	hero.Move(1, -2);
+	LOG("hero今の位置は:("<<hero.x << "," << hero.y<<")");
 
 	std::cin.get();
-}
