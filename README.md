@@ -46,13 +46,13 @@ After learning about `static`, I wrote a simple class and tried defining methods
 
 ---  
 
-### 08-2025.06.01 – Lessons 22 (enum)  [View Folder](./08-2025.06.01)
+### 08-2025.06.01 – Lessons 24 (enum)  [View Folder](./08-2025.06.01)
 After learning about `enums`, I practiced based on The Cherno's tutorial.
 Used static functions without creating an instance.
 
 ---  
 
-### 09-2025.06.01 – Lessons 22 (constructors)  [View Folder](./09-2025.06.01)
+### 09-2025.06.01 – Lessons 25 (constructors)  [View Folder](./09-2025.06.01)
 A small exercise I wrote after learning about `constructors`.  
 
 ---  
