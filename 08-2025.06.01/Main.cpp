@@ -1,32 +1,51 @@
 #include <iostream>
 
-class Book
+class GameLog
 {
 public:
-	std::string title;
-	std::string author;
-	int pages;
-
-	Book(std::string t, std::string a, int p)
+	enum  LogLevel
 	{
-		title = t;
-		author = a;
-		pages = p ;
+		LevelError=0,
+		LevelWarning,
+		LevelInfo
+	};
+
+private:
+	static LogLevel m_Loglevel;
+
+public:
+	static void SetLevel(LogLevel level)
+	{
+		m_Loglevel = level;
 	}
 
-	void Print()
+	static void Error(const char* message)
 	{
-		std::cout <<"Title:" << title << std::endl;
-		std::cout <<"Author" << author << std::endl;
-		std::cout <<"Pages:" << pages << std::endl;
+		if (m_Loglevel >= LevelError)
+			std::cout << "[Error]: " << message << std::endl;
+	}
+
+	static void Warning(const char* message)
+	{
+		if (m_Loglevel >= LevelWarning)
+			std::cout << "[Warning]: " << message << std::endl;
+	}
+
+	static void Info(const char* message)
+	{
+		if (m_Loglevel >= LevelInfo)
+			std::cout << "[Info]:" << message << std::endl;
 	}
 };
 
+GameLog::LogLevel GameLog::m_Loglevel = GameLog::LevelInfo;
 
 int main()
 {
-	Book xs("C++ Basics", "John Smith", 320);
-		xs.Print();
-
+	GameLog::SetLevel(GameLog::LevelWarning);
+	GameLog::Error("Something went wrong.");
+	GameLog::Warning("Be careful!");
+	GameLog::Info("Everything is OK.");
+	
 	std::cin.get();
 }
