@@ -36,11 +36,26 @@ Also used `if` statements and loops from earlier lessons.
 ---
 
 ### 06-2025.05.22 – Lessons 17 & 18 (Improved)  [View Folder](./06-2025.05.22)
-Refactored the code from folder `05_2025.05.21`.  
 Put the class in a header file, defined the functions in a `.cpp` file, and used `main.cpp` to run the program.  
 This was my first time using `ClassName::Function()` to define class methods outside the class.
 
----
+---  
+
+### 07-2025.05.24 – Lessons 22 (Static)  [View Folder](./07-2025.05.24)
+After learning about `static`, I wrote a simple class and tried defining methods outside the class.
+
+---  
+
+### 08-2025.06.01 – Lessons 22 (enum)  [View Folder](./08-2025.06.01)
+After learning about `enums`, I practiced based on The Cherno's tutorial.
+Used static functions without creating an instance.
+
+---  
+
+### 09-2025.06.01 – Lessons 22 (constructors)  [View Folder](./09-2025.06.01)
+A small exercise I wrote after learning about `constructors`.  
+
+---  
 
 Thanks for reading! 🙌
 
