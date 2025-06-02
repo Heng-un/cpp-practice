@@ -57,5 +57,14 @@ A small exercise I wrote after learning about `constructors`.
 
 ---  
 
+### 10-2025.06.01 – Lessons 26 (Destructor)  [View Folder](./10-2025.06.01)
+A small exercise I wrote after learning about `Destructor`.  
+  
+---  
+
+### 11-2025.06.02 – Lessons 28 (virtual)  [View Folder](./11-2025.06.02)
+A small exercise combining inheritance, `virtual` functions, and polymorphism.
+
+---
 Thanks for reading! 🙌
 
